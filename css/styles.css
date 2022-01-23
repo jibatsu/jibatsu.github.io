@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'DidactGothic';
+  src: url('fonts/DidactGothic-Regular.ttf') format('ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  overflow: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+
+  font-family: 'DidactGothic', sans-serif;   /* Add 'Roboto' here */
+  font-size: 18px;
+  line-height: 1.8em;
+  color: #FFF;
+}
+
+.container {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  height: 5%;
+  width: 100%;
+
+  padding: 1% 0;
+  /*border: 1px solid lime ;*/
+}
+
+.mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  width: 100%;
+
+  padding: 2% 0;
+  /*border: 1px solid orangered;*/
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  height: 5%;
+  width: 100%;
+  /*border: 1px solid cyan;*/
+}
+
+img {
+  height: 100%;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #0F0F0F; /* Red */
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #090909; /* Yellow */
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: #000000; /* Blue */
+  }
+}
