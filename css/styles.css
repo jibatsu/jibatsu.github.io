@@ -29,6 +29,17 @@ body {
   color: #FFF;
 }
 
+A {
+  text-decoration: none;
+  }
+
+h1 {
+  font-family: 'DidactGothic', sans-serif;   /* Add 'Roboto' here */
+  font-size: 18px;
+  line-height: 1.8em;
+  color: #FFF;
+}
+
 .container {
   min-height: 100%;
   width: 100%;
