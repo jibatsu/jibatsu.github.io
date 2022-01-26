@@ -29,11 +29,18 @@ body {
   color: #FFF;
 }
 
-A {
+a {
   text-decoration: none;
   }
 
 h1 {
+  font-family: 'DidactGothic', sans-serif;   /* Add 'Roboto' here */
+  font-size: 18px;
+  line-height: 1.8em;
+  color: #FFF;
+}
+
+p {
   font-family: 'DidactGothic', sans-serif;   /* Add 'Roboto' here */
   font-size: 18px;
   line-height: 1.8em;
